@@ -6,7 +6,7 @@ The archive of some document about popular technology document or the suggestion
 希望这个地方可以帮助大家成长和提高。
 ## 一些git命令
 利用git克隆远程github库  
-1 git clone <url or ssh>  
+1 git clone <url/ssh>  
 添加要提交的文件到暂存区  
 3.git add <修改的文件>   
 提交代码到文件控制仓库  
@@ -16,4 +16,4 @@ The archive of some document about popular technology document or the suggestion
 拉取远程分支更新到本地  
 6.git pull origin <branch-name> 如果报错用这个 git pull origin <branch-name> --allow-unrelated-histories  
 提交本地分支(master)代码到远程分支(master)  
-7.git push -u origin <branch-name>:<branch-name>  
+7.git push -u origin branch-name:branch-name  
